@@ -13,5 +13,5 @@ https://rawcdn.githack.com/rbccps-iisc/iudx-cdn/aefe12c01928a168bc1f4ca7103e6cfa
 ```
 
 #### Replace
-Replace [respective-file-originating-from-assets] with the respective filepath beginning with assets directory from the appropriate category.
+Replace [respective-file-originating-from-assets] with the respective filepath beginning with assets directory.
 
