@@ -7,11 +7,9 @@ session_checker.controller('session_checkerCtrl', ['$scope', function($scope) {
     	var apikey = sessionStorage.getItem('apikey')
 
     	if(id===null || apikey===null){
-    		if(window.location.href != location.origin + "/ui/pages/login")
+    		if(window.location.href !== location.origin + "/ui/pages/login")
 			window.location = location.origin + "/ui/pages/login";
-			console.log("IF", window.location.href != location.origin + "/ui/pages/login", id===null || apikey===null)
 		}else{
-			console.log("ELSE", window.location.href != location.origin + "/ui/pages/login", id===null || apikey===null)
 			if (window.location.href === location.origin + "/ui/pages/login/"){
 				var _id = sessionStorage.getItem('id')
 				if(_id=='admin'){
